@@ -11,6 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features = "src/test/java/features",
 		glue = "stepdefPackage",
+		plugin = {"json:target/cucumber/cucumber.json"},
 		tags = {"@sanity"}
 		
 		
